@@ -1,0 +1,26 @@
+1.  create java file ->>> put code into complier 
+->>> which convert into byte files 
+->>> that code runs on JVM
+->>> JVM look for main syntax on file
+
+
+
+write once run anywhere.
+os-->hardware --> JRE --> JVM contain library --> Byte-code
+
+JDk--> JRE-->JRE
+
+
+
+Data Types :- 
+
+1. Primitive :-   int, float, char, boolean
+2. Non primitive : -
+
+Type conversion and casting explicit conversion ie casting 
+
+Type casting is when you assign a value of one primitive data type to another type.
+Narrowing Casting (manually) - converting a larger type to a smaller size type
+
+convert integer into byte.  large to small possible ie Narrowing
+casting implicit conversion
