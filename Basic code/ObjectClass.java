@@ -7,7 +7,6 @@ class Calculator {
     int result = num1 + num2;
 
     public int addition() {
-        // System.out.println("Addition here " + result);
         return result;
     }
 
@@ -17,16 +16,36 @@ class Calculator {
 
 }
 
+class Computer {
+
+    public void getDrive() {
+        System.out.println("You are getting drive information");
+    }
+
+    public int driveStorage(int storage) {
+
+        if (storage > 10)
+            return 100;
+        else
+
+            return storage;
+    }
+}
+
 class ObjectClass {
 
     public static void main(String a[]) {
 
         Calculator calc = new Calculator();
+        Computer c1 = new Computer();
         int result = calc.addition();
         int subtraction = calc.subtract(3000, 2500);
 
-        System.out.println(result);
-        System.out.println(("The Subtraction is " + subtraction));
+        System.out.println(c1.driveStorage(20));
+        // System.out.println(("The Subtraction is " + subtraction));
+
+        System.out.println(c1.driveStorage(2));
+        c1.getDrive();
     }
 
 }
